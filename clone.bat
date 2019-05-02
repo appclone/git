@@ -10,6 +10,6 @@ set arg5=%6
 set arg6=%7
 
 git clone https://github.com/renameapp/build.git "./tools"
-"./tools/Rename.exe" %arg1% "./dist" %arg2% %arg3% %arg4% %arg5% %arg6% %arg7%
+"./tools/Rename.exe" %arg0% "./dist"  %arg1% %arg2% %arg3% %arg4% %arg5% %arg6%
 rd /s /q "./tools"
 rd /s /q "./source"
